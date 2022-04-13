@@ -17,7 +17,7 @@ int main(void)
 
 	ch = 'a';
 
-	ch = 'B';
+	ch = 'A';
 
 	do {
 		putchar(ch);
@@ -29,7 +29,7 @@ int main(void)
 		CH++;
 	} while (ch <= 'Z');
 
-	putchar('\n');
+	putchar(' ');
 
 	return (0);
 }
