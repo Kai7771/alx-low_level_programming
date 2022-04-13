@@ -29,7 +29,7 @@ int main(void)
 		CH++;
 	} while (ch <= 'Z');
 
-	putchar();
+	putchar('\n');
 
 	return (0);
 }
