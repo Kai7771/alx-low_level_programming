@@ -17,7 +17,7 @@ int main(void)
 
 	ch = 'a';
 
-	ch = 'A';
+	ch = 'B';
 
 	do {
 		putchar(ch);
