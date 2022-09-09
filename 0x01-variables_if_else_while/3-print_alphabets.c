@@ -1,35 +1,26 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 
 /**
-* main - Entry point
-*
-* Description: Letters of the alphabets are printed
-* in lower and upper cases.
-*
-* Return: programs returns 0 (Success)
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
+
 {
-	char ch;
 
-	char CH;
+	char low;
 
-	ch = 'a';
-
-	ch = 'A';
-
-	do {
-		putchar(ch);
-		ch++;
-	} while (ch <= 'z');
-
-	do {
-		putchar(CH);
-		CH++;
-	} while (ch <= 'Z');
-
-	putchar(' ');
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
+	for (low = 'A'; low <= 'Z'; low++)
+		putchar(low);
+		putchar('\n');
 
 	return (0);
+
 }
