@@ -2,8 +2,11 @@
 
 /**
  * puts2 - print every other character in a string
+ *
  * @str: string to be processed
+ *
  */
+
 void rev_string(char *s)
 {
 	char rev = s[0];
