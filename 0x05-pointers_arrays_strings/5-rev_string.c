@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - print every other character in a string
+ * rev_string - reverse string
  *
  * @str: string to be processed
  *
