@@ -1,4 +1,4 @@
-12 lines (10 sloc)  165 Bytes
+#include <stdio.h>
 #include "main.h"
 
 /**
