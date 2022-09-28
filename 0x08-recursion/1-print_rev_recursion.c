@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_rev_recursion - prints string in reverse()
+ * _print_rev_recursion - Entry point
  * @s: input
  * Return: Always 0 (Success)
  */
