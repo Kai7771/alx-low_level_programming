@@ -8,11 +8,11 @@
  * Return: Always 0 (Success)
  */
 
-int_strlen_recursion(char *s)
+void int_strlen_recursion(char *s)
 {
 	if (*s == '\0')
 
 		return (0);
 	else
-		return (1+ _stren_recursion(s + 1));
+		return (1 + _strlen_recursion(s + 1));
 }
