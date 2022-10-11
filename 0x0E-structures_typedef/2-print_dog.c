@@ -1,12 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "dog.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
- * print_dog - func that prints a struct dog
- * @d: struct name
- * Return: if name is void 0 else d
- */
+ * print_dog - Print the elements of variable of type struct dog.
+ * @d: Variable to print it's elements.
+ * return: return 0
+ **/
 
 void print_dog(struct dog *d)
 {
