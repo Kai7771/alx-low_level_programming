@@ -1,15 +1,14 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "dog.h"
+#include <stdlib.h>
 
 /**
- * struct dog - func that takes variables for a dog
- * @d: struct name
- * @name: name
- * @age: age
- * @owner: owner
- *Return: 0
- */
+ * init_dog - Initialize a variable of type struct dog.
+ * @d: Variable to initialize.
+ * @name: Dog name.
+ * @age: Dog age.
+ * @owner: Dog owner.
+ * Return: 0
+ **/
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {

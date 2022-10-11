@@ -3,7 +3,7 @@
 #include "dog.h"
 
 /**
- * struct dog - func that prints a struct dog
+ * print_dog - func that prints a struct dog
  * @d: struct name
  * Return: if name is void 0 else d
  */
