@@ -1,6 +1,5 @@
-#include "function_pointers.h"
 #include <stdio.h>
-#include <stdlib.h>
+#include "function_pointers.h"
 
 /**
  * array_iterator - func executes a func given as a parameter
@@ -9,15 +8,17 @@
  * @size: size of the array.
  * @action: a pointer to print
  * Return: void
- * */
+ **/
 
-void array_iterator(int *array, size_t size, void (*action)(int));
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsigned int i;
-	if (array == NULL)
+	size_t a;
+
+	if ((array == NULL) || (size == 0) || (action == NULL))
 		return;
-	if (action == NULL)
-		return;
-	for (i = 0; i < size; i++)
-		action(array[i]);
+
+	for (a = 0; a < size; a++)
+	{
+		action(array[a]);
+	}
 }
