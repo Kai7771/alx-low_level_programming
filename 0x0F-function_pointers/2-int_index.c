@@ -1,6 +1,7 @@
 #include "function_pointers.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <stddef.h>
 
 /**
  * int_index - compares values in a func
@@ -10,7 +11,7 @@
  * Return: return -1 if size <= 0, else index
  */
 
-int int_index(int *array, int size, int (*cmp)(int));
+int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
 
