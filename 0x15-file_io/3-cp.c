@@ -2,15 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry Point
- * @argc: # of args
- * @argv: array pointer for args
- * Return: 0
+ * error_file - checks if files can be opened.
+ * @file_from: file_from.
+ * @file_to: file_to.
+ * @argv: arguments vector.
+ * Return: no return.
  */
-
-void closer(int arg_files);
-
-int main(int argc, char *argv[])
 void error_file(int file_from, int file_to, char *argv[])
 {
 	if (file_from == -1)
